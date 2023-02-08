@@ -1,0 +1,39 @@
+<div class="container">
+
+
+    {{#each data}}
+
+    <div class="row">
+        <div class="col-md-4">
+
+            <div class="card mb-4 player-card">
+
+                <img src="{{imageUrl}}" class="card-img-top" alt="{{title}}">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">{{title}}</h5>
+
+                    <p class="card-text">{{description}}</p>
+
+                    <p> {{length}} </p>
+
+                    <p> {{inversions}} </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{/each}}
+
+
+<div class="container">
+
+    <div>
+
+        <p> <a class="btn btn-primary" href="/">Back to start!</a></p>
+
+    </div>
+</div>
