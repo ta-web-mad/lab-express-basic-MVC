@@ -1,0 +1,26 @@
+{
+  "name": "lab-express-basic-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon -e js,hbs,css server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juangro27/lab-express-basic-MVC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juangro27/lab-express-basic-MVC/issues"
+  },
+  "homepage": "https://github.com/juangro27/lab-express-basic-MVC#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
