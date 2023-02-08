@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Estas son las mejores montañas rusas del mundo</h1>
+
+    <div class=" row">
+        {{#each coasters}}
+        <div class="card mountain" style="width: 18rem;">
+            <img src="{{imageUrl}}" class="card-img-top" alt="{{title}}">
+            <div class="card-body">
+                <h5 class="card-title">{{title}}</h5>
+                <p class="card-text"> Description: {{description}}</p>
+                <p class="card-text"> Length: {{length}}</p>
+                <p class="card-text"> Inversions: {{inversions}}</p>
+
+            </div>
+        </div>
+        {{/each}}
+    </div>
+
+</div>

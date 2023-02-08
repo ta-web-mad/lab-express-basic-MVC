@@ -1,0 +1,10 @@
+.mountain img {
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.imgPort img {
+    height: 600px;
+    object-fit: contain;
+}
