@@ -1,0 +1,17 @@
+<div class="container mt-5">
+    <h1>Coasters</h1>
+    <hr>
+
+    <ul>
+        {{#each allCoastersFromDB}}
+        <li>{{title}}</li>
+        <li>{{description}}</li>
+        <li>{{length}}</li>
+        <li>{{inversions}}</li>
+        <li>{{imageUrl}}</li>
+
+        {{/each}}
+    </ul>
+
+    <a href="/" class="btn btn-dark">Inicio</a>
+</div>
