@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(14, 13, 13);
+    font-family: sans-serif;
+    padding-top: 300px;
+    color: white;
+}
+
+.titulo {
+    padding-top: 100px;
+    padding-left: 20px;
+
+}
+
+.card {
+    color: black;
+
+}
