@@ -1,0 +1,21 @@
+<div class="container text-center index-btn">
+
+    <div class="row justify-content-center">
+        {{#each coasters}}
+
+        <div class="mb-4 col-12 col-md-6 col-lg-3 d-flex align-items-stretch">
+            <div class="card">
+                <img src="{{imageUrl}}" class="card-img-top p-3" alt="{{title}}">
+                <div class="card-body">
+                    <h4 class="card-title">{{title}}</h4>
+                    <h6>{{description}}</h6>
+                    <p class="card-text">Length: {{length}}</p>
+                    <p class="card-text">Inversions: {{inversions}}</p>
+                </div>
+            </div>
+
+        </div>
+        {{/each}}
+    </div>
+
+</div>
