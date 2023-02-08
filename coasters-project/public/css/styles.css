@@ -1,0 +1,28 @@
+.coaster-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+body {
+    color: #284fc2
+}
+
+nav {
+    background-color: #2b32c3;
+}
+
+.logo {
+    height: 40px;
+}
+
+.carousel .carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}

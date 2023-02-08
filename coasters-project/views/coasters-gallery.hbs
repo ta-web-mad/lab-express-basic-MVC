@@ -1,0 +1,26 @@
+<div class="container">
+
+    <h1>Coasters</h1>
+    <p>The best coasters in the whole world!</p>
+    <hr>
+
+    <div class="row justify-content-center">
+
+        {{#each coasters}}
+        <div class="card col-5 col-lg-3 m-3 p-2">
+            <img src="{{imageUrl}}" class="coaster-img card-img-top" alt="{{title}}">
+            <div class="card-body">
+                <h5 class="card-title">{{title}}</h5>
+                <hr>
+                <ul>
+                    <li>{{length}} meters long</li>
+                    <li>{{inversions}} inversions</li>
+                </ul>
+                <p class="card-text">{{description}}</p>
+            </div>
+        </div>
+        {{/each}}
+
+    </div>
+
+</div>
