@@ -1,0 +1,11 @@
+<div class="background-coasters container-fluid">
+    <div class="row">
+        {{#each allCoasters}}
+        <div class="col-3 border border-success rounded-5 ms-1 me-1 coaster">
+            <img class="rounded-5 m-5" src={{imageUrl}} alt="...">
+            <h4>{{title}}</h4>
+            <p>{{description}}</p>
+        </div>
+        {{/each}}
+    </div>
+</div>

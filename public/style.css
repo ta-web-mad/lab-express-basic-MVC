@@ -1,0 +1,35 @@
+img {
+    width: 85%;
+}
+
+.home-content h1 {
+    margin-top: 10%;
+    font-size: 7em;
+}
+
+.home-content p {
+    margin-top: 4%;
+    font-size: 1.2em;
+}
+
+.home-content h4 {
+    margin-top: 4%;
+    font-size: 1.5em;
+}
+
+footer {
+    margin-top: 12%;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.coaster {
+    color: white;
+    background: rgb(133, 114, 177);
+    background: linear-gradient(14deg, rgba(133, 114, 177, 0.3029586834733894) 0%, rgba(173, 250, 173, 1) 100%);
+}
+
+body {
+    background-image: url(https://www.patternpictures.com/wp-content/uploads/Kristal-subtle-glass-white-background-pattern-patternpictures-0220-1500x1000.png);
+    background-repeat: repeat;
+}
