@@ -1,0 +1,60 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+
+}
+
+.home-page img {
+    width: 50%;
+    margin: 30px;
+}
+
+.home-page h1 {
+    margin-top: 50px;
+    font-size: 2.8em;
+    font-weight: bolder;
+}
+
+.button-home {
+    padding: 15px;
+}
+
+.coasters {
+    margin: 50px;
+}
+
+.coasters img {
+    height: 300px;
+    padding: 30px;
+}
+
+body {
+    font-family: Julius Sans One;
+}
+
+.title-coasters {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.coasters span {
+    font-weight: bold;
+}
+
+.coasters h1 {
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    padding-bottom: 6px;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 0.8em;
+}
