@@ -20,7 +20,13 @@ const Coaster = require('./models/coaster.model')
 // hbs.registerPartials(`${__dirname}/views/partials`)
 
 app.get('/', (req, res) => {
-    res.render('index-page')
+    Coaster
+        .find()
+        .select({ imageUrl: 1 })
+        .then(allCoastersFromDB => {
+            res.render('index-page', { coasters: allCoastersFromDB })
+        })
+
 })
 
 app.get('/coasters-gallery', (req, res) => {
@@ -30,7 +36,6 @@ app.get('/coasters-gallery', (req, res) => {
         .then(allCoastersFromDB => {
             res.render('coasters-gallery', { coasters: allCoastersFromDB })
         })
-
 })
 
 app.get('/longest', (req, res) => {
