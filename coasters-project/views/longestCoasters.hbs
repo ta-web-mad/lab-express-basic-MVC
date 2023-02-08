@@ -1,0 +1,27 @@
+<div class=" container">
+    <h1 class="title">Longest Coasters</h1>
+    <hr>
+    <div class="row">
+
+        {{#each coasters}}
+
+        <div class="col-md-4 d-flex align-items-stretch">
+            <div class="card mb-4">
+                <img src="{{imageUrl}}" class="card-img-top" alt="{{title}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{title}}</h5>
+                    <p> {{description}}</p>
+                    <p><b>Length:</b> {{length}}</p>
+                    <p><b>Inversions:</b> {{inversions}}</p>
+
+
+                </div>
+            </div>
+        </div>
+
+        {{/each}}
+
+    </div>
+
+    <a href="/" class="btn btn-dark">Inicio</a>
+</div>
