@@ -14,7 +14,14 @@ hbs.registerPartials(path.join(__dirname, 'views/partials'))
 require("./db/db-connection")
 
 app.get('/', (req, res) => {
-    res.render('index-page')
+    Coaster
+        .find()
+        .sort({ title: 1 })
+        .select({ imageUrl: 1 })
+        .then(allCoasters => {
+            res.render('index-page', { allCoasters })
+        })
+        .catch(err => console.log(err))
 })
 app.get('/coasters-gallery', (req, res) => {
     Coaster
