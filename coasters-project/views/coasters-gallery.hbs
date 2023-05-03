@@ -1,0 +1,26 @@
+<div class="container row align-items-start">
+
+    <h1>Coasters</h1>
+
+    <hr>
+
+    {{#each coasters}}
+    <div class="col-md-4 col-gd-4 text-center">
+
+        <article class="container">
+            <img src="{{imageUrl}}" alt="{{title}}" class="mx-auto d-block rounded float-start">
+            <h2>{{title}}</h2>
+            <p>Description: {{description}}</p>
+            <p>Lenght: Tiene una longitud de {{length}} y {{inversions}} de inversion</p>
+        </article>
+
+    </div>
+    {{/each}}
+
+
+
+    <hr>
+
+    <a href="/" class="btn btn-dark mt-3 mb-5">Volver a inicio</a>
+
+</div>
