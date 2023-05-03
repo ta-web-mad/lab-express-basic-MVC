@@ -1,0 +1,34 @@
+<div class="coasters-gallery">
+    <div class="container">
+        <h1>The craziest roallercoasters!</h1>
+        <hr>
+        <div class="row">
+            {{#each coasters}}
+            <div class="col-xl-3 mb-3">
+
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{imageUrl}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">{{title}}</h5>
+                        <p class="card-text">{{description}}</p>
+                        <p class="card-text">{{length}}</p>
+                        <p class="card-text">{{inversions}}</p>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+
+        <hr>
+        <div class="botones">
+            <a href="/" class="btn btn-danger">Back to homepage</a>
+        </div>
+        <div class="botones">
+
+            <a href="/longest" class="btn btn-danger">All the coasters</a>
+        </div>
+        <div class="botones">
+
+            <a href="/longest" class="btn btn-danger">The longest coasters</a>
+        </div>
+    </div>
