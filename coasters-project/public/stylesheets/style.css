@@ -1,0 +1,51 @@
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #58A8E5;
+}
+
+.navbar,
+.nav-link {
+    background-color: #093150;
+    color: aliceblue;
+}
+
+.nav-link:hover {
+    color: darkorange;
+}
+
+.foot {
+    background-color: #093150;
+    color: aliceblue;
+    font-size: 12px;
+    padding-top: 4px;
+}
+
+h5 {
+    color: #093150;
+    font-size: 24px;
+}
+
+h6 {
+    color: #58A8E5;
+    font-size: 16px;
+}
+
+p {
+    color: #093150;
+    font-size: 16px;
+}
+
+.card-img {
+    object-fit: scale;
+    height: 256px;
+}
+
+.truncate {
+    overflow: hidden;
+    max-width: 80ch;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
