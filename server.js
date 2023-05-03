@@ -38,10 +38,22 @@ app.get('/coasters-gallery', (req, res) => {
 
 
 app.get('/longest', (req, res) => {
-    res.render('longest-page')
+
+    Coaster
+        .find({ length: { $gte: 1000 } })
+        .then(allCoasters => {
+            res.render('longest-page', { coasters: allCoasters })
+        })
+        .catch(err => console.log(err))
 })
 
 app.get('/craziest', (req, res) => {
-    res.render('craziest-page')
+    Coaster
+        .find({ inversions: { $gte: 3 } })
+        .then(allCoasters => {
+            res.render('craziest-page', { coasters: allCoasters })
+        })
+        .catch(err => console.log(err))
 })
+
 app.listen(5005, () => console.log('SERVIDOR LEVANTADO EN 5005'))
