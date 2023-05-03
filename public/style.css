@@ -1,0 +1,20 @@
+.botones {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.index-page img {
+    margin: auto;
+    display: block;
+    width: 40%;
+}
+
+footer {
+    background-color: black;
+    color: #DC3545;
+    text-align: center;
+    padding: 5px;
+    font-size: .9em;
+    margin-top: 60px;
+    width: 100%
+}
