@@ -42,9 +42,10 @@ Import the provided `coasters-data.json` file into your `coasters` collection an
 
 1. Navigate with your terminal to the project root (the provided folder called `coasters-project`) and run `npm init -y` to create a `package.json` file
 2. Install required dependences for your project using NPM: Express, Mongoose and HBS. Don´t forget to check them on the `package.json` file after installing!
-3. Create a `views/` directory that will hold your `.hbs` files (including the `layout.hbs` one!)
-4. Create a `public/` directory that will hold other static files - in this case you will only have a CSS file.
-5. Create a `models/` directory that will hold your `coaster.model.js` file.
+3. Create a `db/` directory that will hold your `database-connection.js` file, and don't forget to require it on your `server.js` file.
+4. Create a `views/` directory that will hold your `.hbs` files (including the `layout.hbs` one!).
+5. Create a `public/` directory that will hold other static files - in this case you will only have a CSS file.
+6. Create a `models/` directory that will hold your `coaster.model.js` file.
 
 
 ### Iteration 3 - Model setup
