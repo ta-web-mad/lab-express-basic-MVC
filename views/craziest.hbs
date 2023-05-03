@@ -1,0 +1,23 @@
+<div class="container">
+
+    <div class="craziest-page">
+
+        <div class="row">
+            {{#each coaster}}
+
+            <div class="col-md-4">
+
+                <img src="{{imageUrl}}" alt="{{title}}">
+
+                <div class="card-body">
+                    <h1>{{title}}</h1>
+                    <p class="description">{{description}}</p>
+                    <h5>Length: {{length}}</h5>
+                    <p class="inversions">Inversions: {{inversions}}</p>
+                </div>
+            </div>
+
+            {{/each}}
+        </div>
+    </div>
+</div>
