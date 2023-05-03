@@ -1,0 +1,28 @@
+.navbar-custom {
+    background-color: #222222;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+.home-link {
+    text-decoration: none;
+    color: #222222;
+
+}
+
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222222;
+    color: aquamarine;
+    text-align: center;
+    padding: 10px;
+    font-size: .8em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
