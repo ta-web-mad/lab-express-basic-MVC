@@ -28,7 +28,7 @@ app.get('/longest', (req, res) => {
     Coaster
         .find({ length: { $gte: 100 } })
         .sort({ length: 'asc' })
-        .then(allCoasters => res.render('coasters', { coaster: allCoasters }))
+        .then(allCoasters => res.render('longest', { coaster: allCoasters }))
         .catch(err => console.log(err))
 })
 ////sorted inversors///
@@ -37,7 +37,7 @@ app.get('/craziest', (req, res) => {
     Coaster
         .find({ inversions: { $gt: 3 } })
         .sort({ length: 'asc' })
-        .then(allCoasters => res.render('coasters', { coaster: allCoasters }))
+        .then(allCoasters => res.render('craziest', { coaster: allCoasters }))
         .catch(err => console.log(err))
 })
 
