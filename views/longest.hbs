@@ -1,0 +1,31 @@
+<div class="container">
+
+    <h1>Longest Roller Coasters</h1>
+
+    <hr>
+    <div class="row">
+
+        {{#each coastersObj}}
+        <div class="col-4">
+            <div class="card" style="width: 25rem;">
+                <img src="{{imageUrl}}" class="card-img-top" alt="{{title}}">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>NAME: </strong> {{title}}</h5>
+                    <p class="card-text"> <strong>DESCRIPTION: </strong> {{description}}</p>
+                    <p class="card-text"> <strong>LENGTH:</strong> {{length}}</p>
+                    <p class="card-text"><strong>INVERSIONS:</strong> {{inversions}}</p>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+
+    </div>
+
+    <hr>
+
+    <a href="/" class="btn btn-dark mt-3 mb-5">Home</a>
+    <a href="/coasters" class="btn btn-dark mt-3 mb-5">RollerCoasters</a>
+    <a href="/craziest" class="btn btn-dark mt-3 mb-5">CraziestCoasters</a>
+
+
+</div>

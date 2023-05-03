@@ -1,0 +1,39 @@
+/*
+white: #f7f9f9;
+light-blue: #2081c3;
+dark-blue: #0a2c42;
+grey: #bfbfbf;
+font-family: Arial, Helvetica, sans-serif;
+*/
+img {
+    width: 90%;
+}
+
+.btn-lngst {
+    display: block;
+    margin: 0 auto
+}
+
+.index {
+    margin-left: 40%;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-top: 5px;
+}
+
+.index-photo {
+
+    width: 71.5%;
+}
+
+footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 1em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
