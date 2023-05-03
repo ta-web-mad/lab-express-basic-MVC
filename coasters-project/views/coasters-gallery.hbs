@@ -1,0 +1,32 @@
+<div class="container">
+
+    <h1>Gallery</h1>
+
+    <hr>
+    <div class="row">
+        {{#each coasters}}
+        
+        <div class="align col-md-4">
+        
+            <div class="coaster card">
+        
+                <img class="card-img-top" src="{{imageUrl}}" alt="{{title}}">
+        
+                <div class="card-body">
+                    <h5 class="card-title">{{title}}</h5>
+                    <p class="card-text">{{description}}</p>
+                </div>
+
+            </div>
+        
+        </div>
+    
+        {{/each}}
+
+    </div>
+
+    <div class="button">
+        <a href="/" class="btn btn-secondary mt-3 mb-5">Home</a>
+    </div>
+
+</div>
