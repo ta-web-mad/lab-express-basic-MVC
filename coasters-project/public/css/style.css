@@ -1,0 +1,14 @@
+img {
+    display: block;
+    width: 100%;
+}
+
+.footer p {
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
