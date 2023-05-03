@@ -1,0 +1,38 @@
+<div class="container">
+
+    <h1>Craziest Coasters</h1>
+
+    <hr>
+
+    <h2>The rollercoasters with the most investors, ordered from the one with the most inversions to the one with the least inversions</h2>
+    
+    <hr>
+
+    <div class="row">
+        {{#each coasters}}
+
+        <div class="align col-md-4">
+
+            <div class="coaster card">
+
+                <img class="card-img-top" src="{{imageUrl}}" alt="{{title}}">
+
+                <div class="card-body">
+                    <h5 class="card-title">{{title}}</h5>
+                    <p class="card-text">{{description}}</p>
+                    <h6 class="card-subtitle">Investors: {{inversions}}</h6>                    
+                </div>
+
+            </div>
+
+        </div>
+
+        {{/each}}
+
+    </div>
+
+    <div class="button">
+        <a href="/" class="btn btn-secondary mt-3 mb-5">Home</a>
+    </div>
+
+</div>

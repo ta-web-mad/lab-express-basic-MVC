@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1em;
+}
+
+.coaster {
+    margin-bottom: 20px;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+}
+
+.coaster img {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: .6em;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%
+}
+
+.coaster-img {
+    display: block;
+    text-align: center;
+}
