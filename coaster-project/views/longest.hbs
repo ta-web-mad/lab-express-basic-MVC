@@ -1,0 +1,20 @@
+<div class="container">
+    <h1>Los Loooong Roller Coasters!</h1>
+    <hr>
+    <div class="row d-flex justify-content-around">
+        {{#each coaster}}
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{{imageUrl}}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{title}}</h5>
+                <p class="card-text">{{description}}</p>
+                <p class="card-text">{{length}}</p>
+                <p class="card-text">INVERSIONS: {{inversions}}</p>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    <hr>
+    <a href="/" class="btn btn-dark mb-5">Volver a inicio</a>
+
+</div>
