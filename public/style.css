@@ -1,0 +1,49 @@
+.inicio {
+    padding-top: 50px;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.inicio img {
+    position: relative;
+    width: 100%;
+}
+
+.card-group {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 10%;
+    background-color: gainsboro;
+}
+
+.card-title {
+
+    text-align: center;
+    font-size: x-large;
+    font-weight: 200;
+
+}
+
+.card-text {
+    font-size: 1em;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+
+.card-group img {
+    height: 160px;
+    object-fit: cover;
+    object-position: top
+}
