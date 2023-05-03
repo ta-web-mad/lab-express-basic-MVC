@@ -1,0 +1,19 @@
+<div class="text-center mt-5 pt-5">
+    <h1>THE CRAZIEST COASTERS</h1>
+</div>
+
+<div class="row mb-5 me-5 ms-5 ">
+    {{#each coasters}}
+    <div class="col-4 p-4">
+        <img src="{{imageUrl}}" class="card-img-top" style="width: 25rem;" alt="...">
+        <div class="card-body">
+            <h5 class="card-title mt-3">{{title}}</h5>
+            <p class="card-text mt-3">{{description}}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item mt-2">Inversions: {{inversions}}</li>
+            <li class="list-group-item">Length: {{length}}</li>
+        </ul>
+    </div>
+    {{/each}}
+</div>
