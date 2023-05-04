@@ -25,14 +25,14 @@ app.get('/coasterGallery', (req, res) => {
 app.get('/longest', (req, res) => {
     Coaster
         .find({ length: { $gt: 100 } })
-        .then(allCoasters => res.render('coaster-gallery', { coaster: allCoasters }))
+        .then(allCoasters => res.render('longest', { coaster: allCoasters }))
         .catch(err => console.log(err))
 })
 
 app.get('/craziest', (req, res) => {
     Coaster
         .find({ inversions: { $gt: 3 } })
-        .then(allCoasters => res.render('coaster-gallery', { coaster: allCoasters }))
+        .then(allCoasters => res.render('craziest', { coaster: allCoasters }))
         .catch(err => console.log(err))
 })
 
