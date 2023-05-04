@@ -1,0 +1,20 @@
+<div class="container">
+
+    <div class="row d-flex justify-content-around">
+
+        {{#each coaster}}
+        <div class="col-md-4 p-4 mb-2">
+
+            <article class="card p-3 mb-3">
+                <img class="coaster-img" src="{{imageUrl}}" alt="{{name}}">
+                <p><strong>Name:</strong> {{title}}</p>
+                <p><strong>Description:</strong> {{description}}</p>
+                <p><strong>Length:</strong> {{length}}</p>
+            </article>
+
+        </div>
+        {{/each}}
+
+    </div>
+
+</div>
