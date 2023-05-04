@@ -5,7 +5,7 @@ const coasterSchema = new Schema({
     description: { type: String },
     length: { type: Number },
     inversions: { type: Number },
-    imageURL: { type: String }
+    imageUrl: { type: String }
 })
 
 const Coaster = model('coaster', coasterSchema)
