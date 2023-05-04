@@ -1,0 +1,20 @@
+<div class="container">
+    <h1>Rollercoasters of the world!</h1>
+    <hr>
+    <div class="row">
+        <div class="col-4">
+            {{#each coaster}}
+            <article>
+                <img src="{{imageUrl}}" alt="{{title}}">
+                <p>{{title}}</p>
+                <p>{{description}}</p>
+                <p>{{length}}</p>
+                <p>{{inversions}}</p>
+            </article>
+            {{/each}}
+        </div>
+    </div>
+    <hr>
+
+    <a href="/" class="btn btn-dark mb-5">Home</a>
+</div>
