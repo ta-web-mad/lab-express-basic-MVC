@@ -1,0 +1,18 @@
+<div class="view_container">
+    <h1>Craziest Coasters!</h1>
+    <hr>
+    <div class="row">
+        {{#each craziestCoasters}}
+        <div class="col-md-3 card p-0 m-3">
+            <img src="{{imageUrl}}" id="coaster_img">
+            <h3 class="p-3">{{title}}</h3>
+            <p class="p-2">{{description}}</p>
+            <p class="p-2">Number of inversions: {{inversions}}</p>
+        </div>
+        {{/each}}
+        <div>
+            <hr>
+            <a href="/" class="btn btn-danger mb-5">Volver a inicio</a>
+            <a href="/longest" class="btn btn-danger mb-5">LONGEST ROLLERCOASTER</a>
+            <a href="/craziest" class="btn btn-danger mb-5">CRAZIEST ROLLERCOASTER</a>
+        </div>

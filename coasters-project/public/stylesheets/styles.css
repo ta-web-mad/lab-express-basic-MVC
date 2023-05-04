@@ -1,0 +1,36 @@
+img {
+    width: 100vh;
+
+}
+
+.view_container {
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+
+    margin-top: 3em;
+}
+
+.navBar_container {
+    margin-left: 100px;
+    background-color: aqua;
+}
+
+#coaster_img {
+    width: 100%;
+}
+
+#home_body {
+    background-image: url(../images/home-bck.jpg);
+    height: 100vh;
+    margin-top: -208px;
+}
+
+li {
+    margin-left: 80px;
+}
+
+footer {
+    bottom: 0;
+    background-color: aqua;
+}
