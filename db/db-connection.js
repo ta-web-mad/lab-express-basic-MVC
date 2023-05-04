@@ -1,6 +1,4 @@
 const mongoose = require('mongoose')
-const { deleteMany, insertMany } = require('../model/coaster.model')
-const Coaster = require('../model/coaster.model')
 
 const databaseName = 'themepark'
 const connectionString = `mongodb://localhost/${databaseName}`
