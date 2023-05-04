@@ -8,15 +8,20 @@ app.use(express.static('public'))
 app.set('views', `${__dirname}/views`)
 app.set('view engine', 'hbs')
 
-const data = require('./coasters-data');
+const data = require('./coasters-data.json');
+// console.log(data)
 
 const Coaster = require('./models/coaster.model')
 
-// Coaster.create(data)
+Coaster.deleteMany()
+    .then(console.log('Se han eliminado la bd'))
+    // .then(Coaster.create(data))
 //     .then(console.log("base de datos creada con data.json"))
-//     .catch(err => console.log("ERROR:" , err))
-//
-// Coaster.deleteMany()
+    .catch(err => console.log('Se produjo un error', err)) 
+
+Coaster.insertMany(data)
+    .then(console.log("base de datos creada con data.json"))
+    .catch(err => console.log("ERROR:" , err))
 
 
 app.get('/', (req, res) => {
