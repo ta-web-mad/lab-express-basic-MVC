@@ -1,0 +1,17 @@
+<div class="container">
+    <h1>Longest rollercoasters of the world!</h1>
+    <hr>
+    <div class=" row">
+        <ul class="col-md-4">
+            {{#each crazyCoaster}}
+            <img src="{{imageUrl}}" alt="{{title}}">
+            <li>{{title}}</li>
+            <li>{{description}}</li>
+            <li>{{length}}</li>
+            <li>{{inversions}}</li>
+            {{/each}}
+        </ul>
+    </div>
+    <hr>
+    <a href="/" class="btn btn-dark mb-5">Home</a>
+</div>
