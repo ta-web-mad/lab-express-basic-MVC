@@ -1,16 +1,19 @@
-<div class="container">
+<div class="container" style="padding-bottom: 50px;">
+    <h1>Most Insane Roller Coasters in the 🌎</h1>
+    <hr>
 
     <div class="row">
 
         {{#each coasters}}
-        <div class="col-md-4 col-lg-4">
-
-
+        <div class="col-sm-12 col-md-4">
+            <img class="coaster-pic" src="{{imageUrl}}" alt="{{title}}" />
+            <h5>{{title}}</h5>
+            <p class="description">{{description}}</p>
+            <p class="length"><strong>Length:</strong> {{length}}</p>
+            <p class="inversions"><strong>Inversions:</strong> {{inversions}}</p>
         </div>
         {{/each}}
 
     </div>
-
-
 
 </div>

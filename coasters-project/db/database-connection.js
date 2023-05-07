@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const databaseName = 'themepark'
-const connectionString = `mongodb://localhost/${databaseName}`
+const connectionString = `mongodb://127.0.0.1:27017/${databaseName}`;
 
 mongoose
     .connect(connectionString)
@@ -20,5 +20,5 @@ mongoose.connection.on('disconnected', () => console.log('UEUEUEUE Mongoose defa
 // If the Node process ends, close the Mongoose connection
 process.on('SIGINT', () => {
     mongoose.connection.close()
-    console.log('AH THIS! Mongoose default connection disconnected through app termination')
+    console.log('TURN OFF THE LIGHTS! Mongoose default connection disconnected through app termination')
 })

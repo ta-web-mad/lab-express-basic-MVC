@@ -18,12 +18,32 @@ app.get('/coasters-gallery', (req, res) => {
 
     Coaster
         .find()
-        .then((allCoasters) => {
-            console.log('testing testing', allCoasters);
-            res.render('coasters-gallery', { coasters: allCoasters })
+        .sort({ title: 1 })
+        .then(coasters => {
+            res.render('coasters-gallery', { coasters }) //--> "isActive will allow bootstrap navbar class to be highlighted when used is on this page"
         })
-        .catch(err => console.log(err))
+        .catch(err => console.log('--> not connex', err))
 
 })
 
-app.listen(3000, () => console.log('SERVER UP AT 3000'))
+app.get('/longest', (req, res) => {
+    Coaster
+        .find({ length: { $gt: 100 } })
+        .sort({ length: -1 })
+        .then(coasters => {
+            res.render('longest', { coasters })
+        })
+        .catch(err => console.log('--> not connex', err))
+})
+
+app.get('/craziest', (req, res) => {
+    Coaster
+        .find({ inversions: { $gt: 3 } })
+        .sort({ inversions: -1 })
+        .then(coasters => {
+            res.render('craziest', { coasters })
+        })
+        .catch(err => console.log('--> not connex', err))
+})
+
+app.listen(5005, () => console.log('SERVER UP AT 5005'))
