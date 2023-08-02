@@ -1,24 +1,17 @@
-<div class="container">
+<div class="container text-center">
 
     <h1>Roller Coasters</h1>
 
-    {{!--
-    <hr> --}}
 
+    <div class="row">
+        {{#each coaster}}
+        <div class="col-md-4">
 
-    {{#each coaster}}
+            {{>coasterCard}}
 
+        </div>
 
-    <img src="{{imageUrl}}" class="card-img-top" alt="{{name}}">
+        {{/each}}
 
-    <h5 class="card-title">{{title}} {{length}} {{inversions}}</h5>
-    <p>{{description}}</p>
-
-
-
-
-
-    {{/each}}
-
-
+    </div>
 </div>
