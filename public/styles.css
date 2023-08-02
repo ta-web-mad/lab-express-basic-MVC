@@ -1,0 +1,40 @@
+img {
+    width: 100%;
+    display: block;
+    margin: auto;
+
+}
+
+
+
+h1 {
+    size: 2 em;
+    text-transform: uppercase;
+
+
+}
+
+footer {
+    background-color: indianred;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 1.2em;
+}
+
+.containCenter {
+    height: 600px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.butonA {
+    text-decoration: none;
+    background-color: bisque;
+    padding: 13px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
