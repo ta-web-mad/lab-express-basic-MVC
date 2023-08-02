@@ -1,0 +1,15 @@
+<div class="container">
+<h1 class="mt-4">Welcome to the Coasters Page!</h1>
+<hr>
+<div class="d-flex justify-content-center">
+	<a class="btn btn-dark btn-lg m-3" href="/coasteas-gallery">See full gallery</a>
+	<a class="btn btn-dark btn-lg m-3" href="/longest">See the longest ones</a>
+	<a class="btn btn-dark btn-lg m-3" href="/craziest">See the craziest ones</a>
+</div>
+{{#each coaster}}
+	<div class="d-flex justify-content-center">
+		<img src="{{imageUrl}}" alt="{{title}}" class="land-img mb-3">
+	</div>
+{{/each}}
+
+</div>
