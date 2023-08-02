@@ -1,3 +1,40 @@
 img{
     width: 100%;
 }
+
+.welcome{
+background-image: url(https://wallpapercave.com/wp/wp7851177.jpg);
+
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+padding-top:200px;
+
+}
+
+.home{
+    margin: 0px auto;
+    padding: 30px 15px;
+}
+
+.nav-bar-align{
+        margin: 0 auto;
+}
+.nav-bg-color{
+    background-color: #288ecc;
+    color: #FFF;
+}
+
+.br-5{
+    border-radius: 1.3rem;
+}
+
+.bg-color{
+    background-color: #68b3e1;
+}
+
+.card_coaster{
+        min-height: 550px;
+        font-size: 14px;
+        margin: 0 auto;
+}
