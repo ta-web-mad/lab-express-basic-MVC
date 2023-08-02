@@ -1,0 +1,29 @@
+<div class="container">
+    <h1>Coasters Galery</h1>
+    <hr>
+    <div clas="row photo_coasters">
+
+        <div class="row infoCoaster">
+
+            {{#each eachCoaster }}
+
+            <div class=" coasterP col-4">
+
+
+
+
+                <h2 class="title">{{title}}</h2>
+                <img src="{{imageUrl}}" alt="{{title}}">
+                <article>{{description}}</article>
+                <p>{{longest}}</p>
+
+
+
+            </div>
+            {{/each}}
+
+
+        </div>
+
+    </div>
+</div>
