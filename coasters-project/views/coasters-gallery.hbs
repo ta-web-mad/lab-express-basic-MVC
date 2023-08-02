@@ -1,0 +1,29 @@
+<div class="container"></div>
+
+<h1>Galería de las Montañas Rusas </h1>
+
+<div class="row mt-5 text-center coastersLeft">
+    {{#each coasters}}
+    <div class="col-sm-4">
+
+        <div class="card">
+            <img src="{{imageUrl}}" class=" card-img-top" alt="coastersName">
+            <div class="card-body">
+                <h5 class="card-title">Nombre: {{title}}</h5>
+                <p class="card-text">Descripción: {{description}}</p>
+                <p class="card-text">Longitud: {{length}}</p>
+                <p class="card-text">Inversiones: {{inversions}}</p>
+
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>
+
+</div>
+
+
+
+
+
+</div>
