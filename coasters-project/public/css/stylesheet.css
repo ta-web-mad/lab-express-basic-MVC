@@ -1,0 +1,75 @@
+/* ---------- [LAYOUT STYLE] -----------*/
+
+.navbar {
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 100%;
+    padding: 50px;
+    font-size: 1.5em;
+    position: fixed;
+}
+
+.nav-link {
+    color: white
+}
+
+footer {
+    background-color: black;
+    color: #f7f9f9;
+    padding: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+/* ---------- [HOME STYLE] -----------*/
+
+body {
+    background-color: black;
+}
+
+a.btn.btn-dark {
+    background-color: black;
+    border: none;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 5em;
+}
+
+#mainImage {
+
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-right: auto;
+    height: 115%;
+}
+
+/* ---------- [GALLERY STYLE] -----------*/
+
+#card {
+    color: white;
+    margin: 50px;
+    margin-top: 125px
+}
+
+.card-image {
+    width: 125%;
+    object-fit: cover;
+    filter: grayscale(100%)
+}
+
+.card-info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 2000px;
+    line-height: 30px
+}
+
+.card-title {
+    justify-content: center;
+    text-transform: uppercase;
+}
