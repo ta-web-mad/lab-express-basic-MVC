@@ -1,0 +1,26 @@
+<div class="container">
+
+    <div class="row">
+
+        {{#each coasters}}
+
+        <div id="card" class="col-md-12">
+
+            <img src="{{imageUrl}}" class="card-image" alt="{{name}}">
+
+            <div class="card-info">
+
+                <h1 class="card-title">{{title}}</h1>
+                <br>
+                <h2 class="description"> {{description}}</h2>
+                <br>
+                <h3>Lenght: {{length}} | Inversions: {{inversions}}</h3>
+            </div>
+
+        </div>
+
+        {{/each}}
+
+    </div>
+
+</div>
