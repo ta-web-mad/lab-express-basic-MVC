@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Welcome!</h1>
+        <div class="d-flex flex-column align-items-center">
+            {{#each coasters}}
+            <img src="{{imageUrl}}" />
+            <a class="btn btn-primary custom-button" href="/coasters-gallery">Coasters Gallery</a>
+            {{/each}}
+        </div>
+    </div>
+</body>
+
+</html>

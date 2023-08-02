@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="mx-auto" style="width:800px;">
+            {{#each coasters}}
+            <div class="card text-white bg-info mb-3" style="width: 50rem;">
+                <img class="card-img-top" src="{{imageUrl}}" alt="{{title}}">
+                <div class="card-body">
+                    <h5>{{title}}</h5>
+                    <p>{{length}} .mt</p>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
