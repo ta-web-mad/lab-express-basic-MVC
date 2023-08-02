@@ -2,17 +2,13 @@ const express = require('express')
 
 const server = express()
 
-
-
 server.use(express.static('public'))
 server.set('views', `${__dirname}/views`)
 server.set('view engine', 'hbs')
 
-
 require('./db/database-connection')
 
 const Coaster = require('./models/coaster.model')
-
 
 server.get('/', (req, res) => {
     res.render('index')
