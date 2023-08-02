@@ -1,0 +1,19 @@
+<div class="index d-flex justify-content-center align-items-center vh-100">
+
+
+    <div class="d-flex flex-column align-items-center justify-content-center">
+
+        {{#each coasters}}
+        <img src="{{imageUrl}}" class="card-img-top mt-5" style="height: 30%" alt="{{name}}">
+        {{/each}}
+
+        {{!-- Metí lo de {{#each coasters}} para seleccionar una imagen al azar cada vez que se refrescase la página
+        pero no consigo terminarlo --}}
+
+        <a href="/coasters-gallery" class="btn btn-dark mb-3 mt-4">Check the coasters!</a>
+        <a href="/craziest-coasters" class="btn btn-dark mb-3">Check the craziest coasters!</a>
+        <a href="/longest-coasters" class="btn btn-dark mb-3">Check the longest coasters!</a>
+
+    </div>
+
+</div>
