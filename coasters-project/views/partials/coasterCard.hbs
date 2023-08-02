@@ -1,0 +1,15 @@
+
+
+    <div class="row">
+        {{#each coast}}
+        <div class="col mb-5">
+            <div class="card p-3 card_coaster" style="width: 30rem;">
+                <img src="{{imageUrl}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{title}}</h5>
+                    <p class="card-text text-muted">{{description}}</p>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
