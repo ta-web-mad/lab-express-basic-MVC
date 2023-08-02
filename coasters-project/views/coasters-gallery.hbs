@@ -1,0 +1,21 @@
+<div class="container mt-5">
+    <h1>Coasters</h1>
+    <hr>
+    <div class="row">
+        {{#each coasters}}
+        <div class="col-md-4">
+            <div class="card mb-3 eachCoaster">
+                <img src="{{imageUrl}}" class="card-img-top" alt="{{name}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{title}}</h5>
+                    <h6>Length: {{length}}</h6>
+                    <h6>Inversions: {{inversions}}</h6>
+                    <p>{{description}}</p>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    <hr>
+    <a href="/" class="btn btn-dark mb-5">Home</a>
+</div>
