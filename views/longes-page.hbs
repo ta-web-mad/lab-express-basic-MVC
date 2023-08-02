@@ -1,0 +1,23 @@
+<div class="container">
+
+    <h2>¡¡Estas son las Coasters más largas!!</h2>
+    <hr>
+    <div class="row">
+        {{#each coasters}}
+        <div class="col-12 col-md-4">
+            <div class="card" style="width: 25rem;">
+                <img src={{imageUrl}} class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{title}}</h5>
+                    <hr>
+                    <p class="card-text">{{description}}</p>
+                    <hr>
+                    <p class="card-text">Distancia: {{length}} m</p>
+                    <hr>
+                    <p class="card-text">{{inversions}} loops</p>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
