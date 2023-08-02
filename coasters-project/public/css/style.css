@@ -1,0 +1,33 @@
+img {
+    width: 100%;
+}
+
+
+footer {
+    background-color: #212429;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: .6em;
+    padding: 20px;
+    font-size: large;
+}
+
+.motivation-phrase {
+    font-size: x-large;
+    font-style: oblique;
+}
+
+.cool-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
