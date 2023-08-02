@@ -1,0 +1,97 @@
+.layout-background {
+  height: auto;
+  position: fixed;
+  width: auto;
+  z-index: -10;
+}
+
+.layout-background img {
+  object-fit: contain;
+}
+
+body {
+  background-attachment: fixed;
+  background-color: #212529;
+  background-image: url('https://images6.alphacoders.com/372/372198.jpg');
+  background-size: cover;
+}
+
+.navbar {
+  color: rgb(233, 233, 233);
+}
+
+#nav-behind {
+  padding-bottom: 56px;
+  padding-right: 100%;
+  position: relative;
+  top: 0;
+}
+
+#carouselExampleCaptions {
+  height: 50%;
+  margin: auto;
+  top: 15%;
+  width: 50%;
+}
+
+.carousel {
+  backdrop-filter: blur(3px);
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.carousel-caption {
+  top: 10vh;
+}
+
+.carousel-caption h5 {
+  color: rgb(233, 233, 233);
+  font-size: 5.5em;
+  text-shadow: #212529 1px 0 10px;
+}
+
+.accordion-item {
+  background-color: #212529e0;
+  backdrop-filter: blur(3px);
+}
+
+.accordion-body {
+  color: rgb(220, 220, 220);
+}
+
+.accordion-body p {
+  margin-bottom: 0px;
+}
+
+.accordion-button {
+  background-color: #21252900;
+  color: rgb(220, 220, 220);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #21252900;
+  color: rgb(220, 220, 220);
+}
+
+.accordion-item img {
+  height: 220px;
+  object-fit: cover;
+  width: 100%;
+}
+
+footer {
+  background-color: #212529;
+  color: rgb(233, 233, 233);
+  font-size: 1em;
+  padding: 5px 30px;
+  position: sticky;
+  top: 100vh;
+  text-align: right;
+  width: 100%;
+}
+
+#footer-behind {
+  bottom: 0;
+  padding-top: 34px;
+  padding-right: 100%;
+  position: relative;
+}
