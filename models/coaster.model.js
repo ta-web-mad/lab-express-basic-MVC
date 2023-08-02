@@ -11,4 +11,4 @@ const coasterSchema = new Schema({
 
 const Coaster = model('coaster', coasterSchema)
 
-module.Coaster = Coaster
+module.exports = Coaster

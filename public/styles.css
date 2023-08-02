@@ -1,0 +1,55 @@
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #f9f7f3;
+    padding-bottom: 100px;
+
+
+}
+
+.navbar {
+
+    width: 100%;
+}
+
+h1 {
+    padding: 30px;
+    color: rgb(185, 29, 29);
+
+}
+
+h2 {
+    color: rgb(185, 29, 29);
+}
+
+.card {
+    margin: 10px;
+    background-color: rgb(185, 29, 29);
+    color: #f9f7f3;
+
+}
+
+.button {
+    align-items: center;
+    margin: 30px;
+    width: 600px;
+}
+
+.homeImage {
+    width: 600px;
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: #212529;
+    color: white;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
