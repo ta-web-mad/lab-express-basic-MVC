@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+}
+
+.backgroundImage {
+    width: 50%;
+    z-index: 1;
+}
+
+.myButtons {
+    text-align: center;
+    padding-top: 25%;
+}
+
+.coastersPhotos {
+    height: 250px;
+}
+
+.allPhotos {
+    justify-content: center;
+}
+
+body {
+    position: relative;
+
+}
+
+.allBackground {
+    background-image: url(/img/foto.avif);
+    background-repeat: none;
+    background-size: cover;
+    padding-bottom: 315px;
+
+}
