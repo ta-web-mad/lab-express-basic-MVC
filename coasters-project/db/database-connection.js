@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const databaseName = 'themepark'
-connectionString = `mongodb://localhost/${databaseName}`
+connectionString = `mongodb://127.0.0.1:27017/${databaseName}`
 
 mongoose
     .connect(connectionString)
