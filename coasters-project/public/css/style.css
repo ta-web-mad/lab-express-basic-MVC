@@ -1,0 +1,9 @@
+* {
+  font-family: sans-serif;
+}
+
+img {
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+}
