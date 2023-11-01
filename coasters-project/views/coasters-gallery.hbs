@@ -1,0 +1,22 @@
+<div class="container mt-5">
+    <h1> Listado de Coasters</h1>
+    <hr>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+        {{#each coasters}}
+        <div class="col-md-4">
+            <div="card">
+                <img src="{{imageUrl}}" class="card-img-top" alt="{{title}}">
+                <div class="card text-center">
+                    <h5 class="card-header">{{title}}</h5>
+                    <p class="card-title">{{description}}</p>
+                    <p class="card-title">Su altura es: {{length}}</p>
+                    <p class="card-title"> Las inversions son: {{inversions}} </p>
+
+
+                </div>
+
+        </div>
+        {{/each}}
+    </div>
+</div>
