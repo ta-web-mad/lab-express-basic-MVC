@@ -1,0 +1,8 @@
+.coaster-image {
+    height: 200px;
+    object-fit: cover;
+}
+.coaster-img {
+    width: 100%;
+    object-fit: contain;
+}
