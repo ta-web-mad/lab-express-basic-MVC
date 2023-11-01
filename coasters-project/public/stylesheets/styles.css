@@ -1,0 +1,30 @@
+body {
+    background-image: radial-gradient(circle, #904897 10%, #00d4ff 90%);
+}
+
+img {
+    width: 400px;
+    align-content: center;
+}
+
+h1 {
+    padding-top: 20px;
+    font-family: 'Helvetica';
+    font-weight: lighter;
+}
+
+p {
+    font-family: 'Helvetica';
+    font-weight: lighter;
+    text-align: justify;
+}
+
+h4 {
+    font-family: 'Helvetica';
+    font-weight: lighter;
+}
+
+h3 {
+    font-family: 'Helvetica';
+    font-weight: lighter;
+}
