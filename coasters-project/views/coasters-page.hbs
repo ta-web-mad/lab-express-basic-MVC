@@ -1,0 +1,26 @@
+<div class="container mt-5">
+
+    <h1>Listado de Montañas</h1>
+
+    <hr>
+    <div class="container">
+        <div class="row">
+            {{#each po}}
+            <div class="col-md-4 mb-3">
+                <div class="card h-100 mb-3">
+                    <img src="{{imageUrl}}" class="card-img-top" alt="Card image cap">
+                    <div class="card-body ">
+                        <h1 class="card-title">{{title}}</h1>
+                        <p class="card-text">{{description}}</p>
+                        <p class="card-text">Length: {{length}}</p>
+                        <p class="card-text">Inversions: {{inversions}}</p>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+
+    <a href="/" class="btn btn-dark">Volver a inicio</a>
+
+</div>
