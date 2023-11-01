@@ -1,0 +1,22 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+
+        {{#each allCoasters}}
+        <div class="col-md-6  mb-3">
+            <div class="card h-100 w-100 bg-body-tertiary coasterCard" style="width: 18rem;">
+                <img src="{{imageUrl}}" class="card-img-top" alt="{{title}}">
+                <div class="card-body ">
+                    <h5 class="card-title text-center">{{title}}</h5>
+                </div>
+                <ul class="list-group list-group-flush ">
+                    <li class="list-group-item">{{description}}</li>
+                    <li class="list-group-item  text-center"><b>Longitud: </b>{{length}} metros</li>
+                    <li class="list-group-item  text-center"><b>Inversiones: </b> {{inversions}}</li>
+                </ul>
+            </div>
+        </div>
+        {{/each}}
+
+    </div>
+</div>
+</div>

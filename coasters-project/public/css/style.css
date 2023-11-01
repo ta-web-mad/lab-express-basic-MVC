@@ -1,0 +1,5 @@
+.coasterCard img {
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+}
