@@ -1,0 +1,14 @@
+footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    padding-left: 20px;
+    background-color: black;
+    color: #f7f9f9;
+}
+
+.col-4>img {
+    height: 225px;
+    background-size: cover;
+}

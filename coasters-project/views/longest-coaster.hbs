@@ -1,0 +1,15 @@
+<div class="container align-items-center">
+    {{#each coasters}}
+    <div class="row align-items-center">
+        <div class="col-4">
+            <img src="{{imageUrl}}" alt="{{title}}">
+        </div>
+        <div class="col-8">
+            <h3 class="title">{{title}}</h3>
+            <p class="text">{{description}}</p>
+            <p class="text">Con una altura de: {{length}} y una inversión de: {{inversions}}</p>
+        </div>
+    </div>
+    {{/each}}
+
+</div>
