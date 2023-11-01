@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(145, 238, 207);
+}
+
+.navbar {
+    background-color: rgb(145, 238, 207);
+    border: solid black;
+    margin-bottom: 16px;
+    padding-left: 10px;
+}
+
+img {
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+
+h1 h2 {
+    margin-top: 16px;
+}
+
+.title {
+    font-weight: bolder;
+}
