@@ -1,0 +1,13 @@
+<div class="row">
+    {{#each longestCoasters}}
+
+    <div class="col-4 mt-5 mb-5 p-3 border border-warning allPhotos">
+        <img src="{{imageUrl}}" class="coastersPhotos" alt="photosCoasters">
+        <h2>{{title}}</h2>
+        <p>{{description}}</p>
+        <h5>Length: {{length}}</h5>
+        <h5>Inversions: {{inversions}}</h5>
+    </div>
+
+    {{/each}}
+</div>
