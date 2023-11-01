@@ -1,0 +1,12 @@
+.home {
+    text-align: center;
+}
+
+.myTable img {
+    width: 220px;
+}
+
+.myButton {
+    display: flex;
+    justify-content: center;
+}

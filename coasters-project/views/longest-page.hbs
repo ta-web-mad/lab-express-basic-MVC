@@ -1,0 +1,32 @@
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Imagen</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Descripción</th>
+                    <th scope="col">Longitud</th>
+                    <th scope="col">Inversiones</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                {{#each longCoasters}}
+                <tr class="myTable">
+                    <td><img src="{{imageUrl}}" alt="{{title}}"></td>
+                    <td>{{title}}</td>
+                    <td>{{description}}</td>
+                    <td>{{length}}</td>
+                    <td>{{inversions}}</td>
+                </tr>
+                {{/each}}
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<a href="/" class="btn btn-dark myButton">Volver a inicio</a>
+
+</div>
