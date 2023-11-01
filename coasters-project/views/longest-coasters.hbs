@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>Click in the name to see the description of the Coaster</h1>
+    <div class="row">
+        {{#each coasters}}
+            <div class="container col-sm-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ imageUrl }}" class="coaster-image card-img-top" alt="Coaster Image">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="/coasters/{{ id }}">{{ title }}</a>
+                        </h5>
+
+                        {{!-- <p class="card-text">{{ description }}</p> --}}
+                        <p class="card-text">Length: {{ length }}</p>
+                        <p class="card-text">Inversions: {{ inversions }}</p>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>
