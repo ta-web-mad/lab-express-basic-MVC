@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        {{#each coasters}}
+        <div class="col-4 mt-2 mb-5">
+            <div class="card" style="width: 18rem;">
+                <img src="{{imageUrl}}" class="card-img-top" alt="{{title}}">
+                <div class="card-body">
+                    <h3 class="card-title">{{title}}</h3>
+                    <p class="card-text">{{description}}</p>
+                    <p class="card-text">Con una altura de: {{length}} y una inversión de: {{inversions}}</p>
+                </div>
+            </div>
+
+        </div>
+        {{/each}}
+    </div>
+</div>
