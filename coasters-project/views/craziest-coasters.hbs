@@ -1,0 +1,21 @@
+<h1>like js loops? try these ones!</h1>
+<div class="container">
+
+    <div class="row no-gutters">
+        {{#each coasters}}
+        <div class="col-md-6">
+            <img src="{{imageUrl}}" class="card-img-top" alt="{{title}}">
+
+
+            <div class="card-body">
+                <h5 class="card-title">{{title}}</h5>
+                <p class="card-text">{{description}}</p>
+                <p class="card-text"><small class="text-muted">{{inversions}}</small></p>
+
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    <hr>
+
+</div>
