@@ -1,0 +1,22 @@
+
+<button type="button" class="btn btn-info"><a href="/">Home Page</a></button>
+
+
+
+
+
+
+<div class="container">
+<div class="card" style="width:80rem;">
+    {{#each coast}}
+  <img width="50%" src="{{imageUrl}}" alt="img">
+  <div class="card-body">
+    <h5>{{title}} </h5>
+    <p class="card-text">{{description}}</p>
+    <p class="card-text">{{length}}</p>
+    <p class="card-text">{{inversions}}</p>
+    
+  </div>
+  {{/each}}
+</div>
+</div>
