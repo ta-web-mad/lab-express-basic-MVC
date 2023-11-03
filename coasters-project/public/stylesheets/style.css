@@ -1,0 +1,16 @@
+body {
+    padding-top: 60px;
+    padding-left: 2%;
+}
+
+footer {
+    background-color: #25292c;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    font-size: .8em;
+    text-align: center;
+    padding: 3px;
+}
