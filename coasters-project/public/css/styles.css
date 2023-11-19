@@ -1,0 +1,29 @@
+img {
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.home {
+    background-color: rgb(80, 80, 80);
+    background-image: url("../img/home.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 400px;
+}
+
+.text {
+    color: white;
+
+}
+
+.text p {
+    font-size: 40px;
+}
