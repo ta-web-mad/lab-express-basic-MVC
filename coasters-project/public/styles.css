@@ -1,0 +1,50 @@
+.navbar-custom {
+    background-color: #222222;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+.home-link {
+    text-decoration: none;
+    color: #222222;
+
+}
+
+
+.btn {
+    background-color: aquamarine !important;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.15);
+}
+
+.coaster-pic {
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+h5 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222222;
+    color: aquamarine;
+    text-align: center;
+    padding: 10px;
+    font-size: .8em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
