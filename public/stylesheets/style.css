@@ -1,0 +1,36 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.reference{
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size:x-large;
+  padding-left: 2rem;
+}
+.reference:hover{
+  color: #ff0062;
+}
+.cs-navbar{
+  background-color:rgb(95, 162, 192);
+  height: 4em;
+}
+.icon{
+  height: 4em;
+  padding-left: 2rem;
+}
+.front{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.coaster{
+  width: 70%;
+  margin: 4rem;
+}
+.coasters{
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
